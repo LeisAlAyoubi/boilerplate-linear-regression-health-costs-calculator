@@ -1,0 +1,16 @@
+name: keras_linear_regression
+
+channels:
+  - conda-forge
+  - defaults
+  - conda-forge/label/broken
+
+dependencies:
+  - python=3.9
+  - pip
+  - numpy
+  - matplotlib
+  - pandas
+  - tensorflow
+  - pip:
+    - seaborn
